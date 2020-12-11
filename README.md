@@ -2,7 +2,9 @@
 2020Java Final Experiment -- Golang Game
 
 ## FrameWork
+
 MVC FrameWork
+
 This is the first time I use MVC, so I don't know if it is designed reasonable :)
 
 ```
