@@ -3,7 +3,7 @@
 
 ## FrameWork
 MVC FrameWork
-This is the first time I use MVC, so I don't if it is designed reasonable :)
+This is the first time I use MVC, so I don't know if it is designed reasonable :)
 
 ```
 |--Model
