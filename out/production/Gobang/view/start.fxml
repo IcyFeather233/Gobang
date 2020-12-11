@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="model.Game"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Button fx:id="okButton" text="开始游戏" onMouseClicked="#okMouseClicked" layoutX="300" layoutY="300"></Button>
+
+    <Label text="X" layoutX="150" layoutY="100"></Label>
+    <TextField fx:id="XGrid" layoutX="200" layoutY="100"></TextField>
+
+    <Label text="Y" layoutX="150" layoutY="200"></Label>
+    <TextField fx:id="YGrid" layoutX="200" layoutY="200"></TextField>
+
+    <Button fx:id="RobotBlackButton" text="黑方为Robot: 否" layoutX="400" layoutY="100" onMouseClicked="#BlackRobotClicked"></Button>
+    <Button fx:id="RobotWhiteButton" text="白方为Robot: 否" layoutX="400" layoutY="200" onMouseClicked="#WhiteRobotClicked"></Button>
+
+</AnchorPane>
