@@ -86,7 +86,7 @@ public class Robot {
                         chessValue[i][j] += value; // 权值累加
                     }
 
-                    // 向上
+                    // 向下
                     for (int k = j + 1; k < chess[i].length; k++) {
                         if (chess[i][k] == 0) {
                             break;
@@ -108,7 +108,7 @@ public class Robot {
                         chessValue[i][j] += value; // 权值累加
                     }
 
-                    // 向下
+                    // 向上
                     for (int k = j - 1; k > 0; k--) {
                         if (chess[i][k] == 0) {
                             break;
@@ -172,7 +172,7 @@ public class Robot {
                         chessValue[i][j] += value; // 权值累加
                     }
                     // 右斜向上
-                    for (int k = 1; j-k>0&&i+k<chess[i].length ; k++) {
+                    for (int k = 1; j-k>0&&i+k<chess.length ; k++) {
                         if (chess[i+k][j-k] == 0) {
                             break;
                         } else {
@@ -193,7 +193,7 @@ public class Robot {
                         chessValue[i][j] += value; // 权值累加
                     }
                     // 左斜向下
-                    for (int k = 1; j+k<chess.length&&i-k>0; k++) {
+                    for (int k = 1; j+k<chess[i].length&&i-k>0; k++) {
                         if (chess[i-k][j+k] == 0) {
                             break;
                         } else {
